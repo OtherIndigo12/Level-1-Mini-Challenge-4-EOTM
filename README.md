@@ -53,7 +53,7 @@ All three are real and all three are famous.
 
 bug 1 - line 14 - The Crew was undefined - .name was capitalized and caused the names to not show because the terminal didnt recognize it - game .Name a lowercase n
 
-bug 2 - line 7 - Total Tacos Dropped displayed as "472" and not total tacos dropped - 7 on line 7 is a string and not integr, resulting in a wrong number, removed the parenthesis around 7
+bug 2 - line 7 - Total Tacos Dropped displayed as "472" and not total tacos dropped - 7 on line 7 is a string and not integr, resulting in concatination, making a wrong number, removed the quotes around 7
 
 bug 3 - line 19 - error: invalid assignment to const 'total' - total assinged to const and not let because it is being reassigned - changed const to let
 
